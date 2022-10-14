@@ -19,5 +19,7 @@ public class Point {
         System.out.println("result (156, 221) to (97, 221) " + result);
         result = Point.distance(2159, 4987, 5612, 3211);
         System.out.println("result (2159, 4987) to (5612, 3211) " + result);
+        result = Point.distance(169, 27, 12, 3500);
+        System.out.println("result (169, 27) to (12, 3500) " + result);
     }
 }
